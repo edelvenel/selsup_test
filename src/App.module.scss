@@ -61,14 +61,14 @@
   flex-wrap: wrap;
 }
 
-// input,
-// select {
-//   padding: 4px;
-//   width: 200px;
-//   overflow: hidden;
-//   text-wrap: wrap;
-//   text-overflow: ellipsis;
-// }
+input,
+select {
+  padding: 4px;
+  width: 200px;
+  overflow: hidden;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+}
 
 .model {
   width: 400px;
