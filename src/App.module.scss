@@ -1,0 +1,79 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+.paramEditor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #555555;
+  border-radius: 4px;
+}
+
+.paramForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paramLabel {
+  width: 150px;
+  text-align: left;
+  overflow: hidden;
+  text-wrap: wrap;
+  text-overflow: clip;
+}
+
+.paramInput {
+  display: flex;
+  min-width: 150px;
+  align-items: flex-start;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #555555;
+  border-radius: 4px;
+}
+
+.color {
+  min-width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.colorsLabel {
+  min-width: 150px;
+  text-align: left;
+}
+
+.colorPanels {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+// input,
+// select {
+//   padding: 4px;
+//   width: 200px;
+//   overflow: hidden;
+//   text-wrap: wrap;
+//   text-overflow: ellipsis;
+// }
+
+.model {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
